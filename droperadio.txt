@@ -1,0 +1,23 @@
+ <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">É programador?</span>
+                        <div class="input-group-text">
+                            <input name="programador" value="sim" type="radio" aria-label="Radio button for following text input">Sim
+                        </div>
+                        <div class="input-group-text">
+                            <input name="programador" value="nao" type="radio" aria-label="Radio button for following text input">Não
+                        </div>
+                    </div>
+                  </div>
+                    <br>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <label class="input-group-text" for="inputGroupSelect01">Atua na área de TI?</label>
+                    </div>
+                    <select name="experiencia" class="custom-select" id="inputGroupSelect01">
+                      <option selected>Não</option>
+                      <option value="1">Sim, menos de um ano</option>
+                      <option value="2">Sim, entre um e cinco anos</option>
+                      <option value="3">Sim, mais de cinco anos</option>
+                    </select>
+                  </div>
